@@ -39,7 +39,7 @@
     position: absolute;
     text-decoration: solid;
     align-content: center;
-    top: 550px;
+    top: 80vh;
     cursor: pointer;
     right: 50%;
 }
