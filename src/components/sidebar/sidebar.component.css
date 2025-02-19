@@ -1,0 +1,23 @@
+.side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 12;
+    padding: 10px;
+}
+button{
+    background-color: hsl(16, 88%, 53%);
+    cursor: pointer;
+    border-radius: 15%;
+    margin-bottom: 10px;
+    border-left: 40px;
+    border-right: 40px;
+    padding: 3px;
+    font-size: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+  

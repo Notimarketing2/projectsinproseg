@@ -1,0 +1,48 @@
+.foot{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    display: flex;
+    margin-top: 3px;
+    align-content: space-around;
+}
+.pict2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.addres{
+    margin: 6px;
+    position: absolute;
+    color: beige;
+}
+.phones{
+    margin: 5px;
+    position:absolute;
+    color: beige; 
+    top:495px;
+}
+.social{
+    display: flex;
+    position: fixed;
+    cursor: pointer;
+    justify-content: space-around;
+    top: 500px;
+    right: 05%;
+    justify-content: space-around;
+    padding-left: 13%;
+    margin: 5px;
+    justify-content: space-around;
+    text-align: justify;
+    
+}
+.email{
+    position: absolute;
+    text-decoration: solid;
+    align-content: center;
+    top: 550px;
+    cursor: pointer;
+    right: 50%;
+}
+a:link{
+    color: bisque;
+}

@@ -1,0 +1,13 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+    margin-left: 15%;
+    background-color: hsl(16, 88%, 53%);
+    cursor: pointer; 
+    border-radius: 35%;
+    padding: 3px;
+    font-size: 13px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
