@@ -1,9 +1,10 @@
 .nav{
     display: flex;
     justify-content: space-around;
+    margin: 5px;
 }
 button{
-    width: 150px;
+    width: 120px;
     background-color: hsl(16, 88%, 53%);
     cursor: pointer; 
     border: 2px solid ;

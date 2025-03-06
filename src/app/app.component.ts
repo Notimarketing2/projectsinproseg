@@ -5,11 +5,10 @@ import { SidebarComponent } from '../components/sidebar/sidebar.component';
 import { NavbarComponent } from '../components/navbar/navbar.component';
 import { FooterComponent } from '../components/footer/footer.component';
 import { ContentComponent } from '../components/content/content.component';
-import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, HeaderComponent, SidebarComponent, NavbarComponent, FooterComponent, ContentComponent, MatButtonModule],
+  imports: [ HeaderComponent, SidebarComponent, NavbarComponent, FooterComponent, ContentComponent,],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
