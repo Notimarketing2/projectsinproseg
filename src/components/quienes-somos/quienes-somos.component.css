@@ -1,0 +1,14 @@
+.firstcol{
+    background-color: aqua;
+    flex-grow: 6;
+}
+
+.secondcol{
+    background-color: rgb(223, 139, 29);
+    flex-grow: 6;
+    align-items: center;
+}
+.mainContent{
+    display: flex;
+   
+}

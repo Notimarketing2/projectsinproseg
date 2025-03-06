@@ -18,28 +18,23 @@
 .phones{
     margin: 5px;
     position:absolute;
-    color: beige; 
-    top:495px;
+    color: beige;
 }
 .social{
     display: flex;
     position: fixed;
     cursor: pointer;
     justify-content: space-around;
-    top: 500px;
     right: 05%;
-    justify-content: space-around;
     padding-left: 13%;
     margin: 5px;
-    justify-content: space-around;
     text-align: justify;
     
 }
 .email{
     position: absolute;
     text-decoration: solid;
-    align-content: center;
-    top: 80vh;
+    align-content: center;  
     cursor: pointer;
     right: 50%;
 }
