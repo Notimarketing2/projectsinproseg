@@ -4,7 +4,7 @@ import { QuienesSomosComponent } from '../quienes-somos/quienes-somos.component'
 
 @Component({
   selector: 'app-content',
-  imports: [QuienesSomosComponent],
+  imports: [RouterOutlet],
   templateUrl: './content.component.html',
   styleUrl: './content.component.css'
 })
