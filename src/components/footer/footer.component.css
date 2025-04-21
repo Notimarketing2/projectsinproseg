@@ -15,7 +15,36 @@
     position: absolute;
     color: beige;
 }
-.phones{
+.phones{.foot {
+    display: flex;
+    flex-direction: column; /* Alinear los elementos en columna */
+    align-items: center; /* Centrar los elementos horizontalmente */
+    padding: 20px;
+    background-color: #f4f4f4; /* Color de fondo opcional */
+    text-align: center;
+}
+
+.foot img {
+    max-width: 100px; /* Ajustar el tamaño de las imágenes */
+    margin: 10px;
+}
+
+.addres, .phones, .email {
+    margin: 5px;
+    font-size: 12px; /* Ajustar el tamaño del texto */
+}
+
+.social {
+    display: flex;
+    justify-content: center; /* Centrar los íconos de redes sociales */
+    gap: 15px; /* Espaciado entre los íconos */
+    margin-top: 10px;
+}
+
+.social img {
+    max-width: 30px; /* Ajustar el tamaño de los íconos */
+    cursor: pointer;
+}
     margin: 5px;
     position:absolute;
     color: beige;
