@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-haz-parte',
   imports: [],
   templateUrl: './haz-parte.component.html',
-  styleUrl: './haz-parte.component.css'
+  styleUrls: ['./haz-parte.component.css']
 })
 export class HazParteComponent {
 
